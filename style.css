@@ -2,8 +2,12 @@
 
 :root {
   --link-color: #ffffff;
+  --link-active-color: #ff6c00;
   --text-font-family: "Open Sans", sans-serif;
   --heading-font-family: "Raleway", sans-serif;
+  --text-color: #9da4bd;
+  --text-alternate-color: #303030;
+  --heading-color: #ffffff;
 }
 
 body {
@@ -23,15 +27,73 @@ h6 {
   background: #363636;
   font-size: 12px;
 }
+.global-header a {
+  color: var(--link-color);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+}
 
 .global-header .main-navigation a,
 .global-header .main-navigation a:visited {
-  color: var(--link-color);
-  font-size: 12px;
-  font-weight: 600;
   letter-spacing: 0.1em;
 }
 
-.global-header .main-navigation a.active {
-  color: #ff6c00;
+.global-header a.active {
+  color: var(--link-active-color);
+}
+.global-header a.social-links {
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.2em;
+}
+.global-header .main-navigation .phone-number {
+  text-transform: uppercase;
+}
+.global-header button {
+  letter-spacing: 0.09em;
+}
+.section-sub-hading {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.hero-hading {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 85px;
+  letter-spacing: 0.05em;
+  color: var(--heading-color);
+}
+
+.section h1,
+.section h2,
+.section h3 {
+  color: var(--heading-color);
+}
+
+.section-alternate h1,
+.section-alternate h2,
+.section-alternate h3 {
+  color: var(--text-alternate-color);
+}
+.hero-section {
+  background: #363636;
+}
+
+.section-heading {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 85px;
+  letter-spacing: 0.05em;
+  color: var(--heading-color);
 }
