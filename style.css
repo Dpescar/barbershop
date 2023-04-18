@@ -19,8 +19,7 @@ body {
    line-height:
 }
 
-.global-header .main-navigation a,
-.global-header .main-navigation a:visited {
+.global-header .main-navigation a{
     color: blue;
 }
 
