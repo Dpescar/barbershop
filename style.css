@@ -1,60 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap");
 
 :root {
   --link-color: #ffffff;
-    --text-font-family: 'Open Sans', sans-serif;
-    --heading-font-family: 'Raleway', sans-serif;
-    --
+  --text-font-family: "Open Sans", sans-serif;
+  --heading-font-family: "Raleway", sans-serif;
 }
-
 
 body {
-    font-family:var(--text-font-family) ;}
-
-
-
-.global-header {
-   background: #363636;
-   font-size: 12px;
-   line-height:
+  font-family: var(--text-font-family);
 }
 
-.global-header .main-navigation a{
-    color: blue;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+}
+
+.global-header {
+  background: #363636;
+  font-size: 12px;
 }
 
 .global-header .main-navigation a,
 .global-header .main-navigation a:visited {
-    color: var(--link-color);
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.1em;
+  color: var(--link-color);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
 }
 
 .global-header .main-navigation a.active {
-    color: #ff6c00;
+  color: #ff6c00;
 }
- 
-.global-header .main-navigation .social-links{
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.09em;
-}
-
-.global-header .main-navigation .phone-number {
-    text-transform: uppercase;
-}
-
-.global-header button {
-    letter-spacing: 0.09em;
-}
-
-.hero-hading {
-font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 15px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-} 
