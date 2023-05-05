@@ -135,6 +135,15 @@ ul {
   text-transform: uppercase;
   color: rgba(157, 164, 189, 0.6);
 }
+.heading-with-dash {
+  display: flex;
+}
+.heading-with-dash img {
+  align-self: center;
+}
+.heading-with-dash h3 {
+  margin-left: 20px;
+}
 /*Hero Section*/
 .hero-hading {
   font-family: "Raleway";
@@ -144,10 +153,11 @@ ul {
   line-height: 85px;
   letter-spacing: 0.05em;
   color: var(--heading-color);
+  margin-top: 20px;
 }
 .hero-section {
   background: #363636;
-  padding-top: 40px;
+  padding-top: 140px;
   padding-bottom: 40px;
   padding-left: 100px;
 }
