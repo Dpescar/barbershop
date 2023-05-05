@@ -25,6 +25,16 @@ h5,
 h6 {
   font-family: var(--heading-font-family);
 }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section-with-two-columns {
+  display: flex;
+}
+.section-with-two-columns > div {
+  flex: 0 1 50%;
+}
 /*Color section*/
 .black {
   color: var(--text-alternate-color);
@@ -135,15 +145,6 @@ ul {
   text-transform: uppercase;
   color: rgba(157, 164, 189, 0.6);
 }
-.heading-with-dash {
-  display: flex;
-}
-.heading-with-dash img {
-  align-self: center;
-}
-.heading-with-dash h3 {
-  margin-left: 20px;
-}
 /*Hero Section*/
 .hero-hading {
   font-family: "Raleway";
@@ -160,6 +161,20 @@ ul {
   padding-top: 140px;
   padding-bottom: 40px;
   padding-left: 100px;
+}
+.heading-with-dash {
+  display: flex;
+}
+.heading-with-dash img {
+  align-self: center;
+}
+.heading-with-dash h3 {
+  margin-left: 20px;
+}
+.control-buttons {
+  margin-top: 142px;
+  display: flex;
+  justify-content: flex-end;
 }
 /*About Section*/
 .about-section-up {
