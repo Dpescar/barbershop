@@ -10,7 +10,9 @@
   --heading-color: #ffffff;
   --p-color: #555555;
 }
-
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: var(--text-font-family);
 }
@@ -55,6 +57,7 @@ ul {
 }
 .global-header .main-navigation ul {
   display: flex;
+  padding-inline-start: 0px;
 }
 .global-header .main-navigation ul li + li {
   margin-left: 40px;
@@ -64,6 +67,10 @@ ul {
   font-size: 12px;
   line-height: 16px;
   font-weight: 600;
+  text-decoration: none;
+}
+.global-header-book-bnt {
+  margin-left: 40px;
 }
 .global-header .main-navigation a,
 .global-header .main-navigation a:visited {
@@ -142,6 +149,7 @@ ul {
   background: #363636;
   padding-top: 40px;
   padding-bottom: 40px;
+  padding-left: 100px;
 }
 /*About Section*/
 .about-section-up {
