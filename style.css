@@ -25,13 +25,6 @@ h5,
 h6 {
   font-family: var(--heading-font-family);
 }
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.section-with-two-columns {
-  display: flex;
-}
 .section-with-two-columns > div {
   flex: 0 1 50%;
 }
@@ -59,7 +52,6 @@ ul {
 .global-header {
   background: #363636;
   font-size: 12px;
-  padding: 40px 55px 40px 100 px;
 }
 .global-header .main-navigation {
   display: flex;
@@ -195,6 +187,31 @@ ul {
   line-height: 49px;
   letter-spacing: 0.05em;
   color: var(--text-alternate-color);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-with-two-columns {
+  display: flex;
+}
+.section-images {
+  display: flex;
+  box-sizing: border-box;
+  height: 600px;
+  width: 445px;
+}
+.section-images img + img {
+  margin-left: 30px;
+}
+.about-description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: baseline;
 }
 /*Services and Prices Section*/
 
