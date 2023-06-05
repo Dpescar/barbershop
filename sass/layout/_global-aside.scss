@@ -7,7 +7,9 @@
   justify-content: space-between;
   padding: 55px;
 }
-
+.logo-mobile {
+  display: none;
+}
 .global-aside__logo {
   transition: transform var(--transition);
 
@@ -22,4 +24,13 @@
   flex-direction: column;
   align-items: center;
   gap: 40px;
+}
+
+@media screen and (min-width: var($tablet-brakepoint)) {
+  .global-aside {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: var($desktop-brakepoint)) {
 }

@@ -1,6 +1,8 @@
 $dark-text: #303030;
 $white-text: #fff;
 $accent-color: #ff6c00;
+$tablet-brakepoint: 481px;
+$desktop-brakepoint: 769px;
 
 :root {
   --accent-color: #{$accent-color};
